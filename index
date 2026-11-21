@@ -1,0 +1,7 @@
+echo "# video-reference" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/telemongameapp-ops/video-reference.git
+git push -u origin main
